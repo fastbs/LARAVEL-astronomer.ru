@@ -1,0 +1,390 @@
+/* Общие стили */
+body
+{
+background:#FFFFFF;
+font-size: 16px;
+color:Black;
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+margin: 0;
+}
+
+
+h1 {
+ font-size: 36px; /* Размер шрифта */
+ margin: 0; /* Убираем отступы */
+ color: #fc6; /* Цвет текста */
+}
+
+h2 {
+ margin-top: 0; /* Убираем отступ сверху */
+}
+
+textarea, input, select
+{
+background:#FFFFFF;
+font-size: 14px;
+color:Black;
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+border:#7F9DB9 1px solid;
+}
+
+#TopLogo { /* Верхний блок */
+ height: 145px; /* Высота блока */
+ padding: 0px; /* Поля вокруг текста */
+ border-top: 1px solid #FFFFFF;
+ border-bottom: 1px solid #FFFFFF;
+ background: #000000 url(http://127.0.0.1/astronomer/images/top3.jpg) no-repeat;
+}
+
+#Footer { /* Нижний блок */
+ min-height: 40px;
+ padding: 0px; /* Поля вокруг текста */
+ margin:  10px;
+ background: #FFFFFF url(../images/block2.png) no-repeat;
+}
+
+#Footer A
+{
+ color: #38536E;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+#Footer A:hover
+{
+ text-decoration: underline;
+ color: #BD2026;
+}
+
+
+/*
+#Footer DIV:hover
+{
+ outline: 1px solid #FF0000;
+}
+*/
+
+#Layout
+{
+ overflow: hidden;
+ min-width: 900px;
+ margin: 10px 0 0 0;
+}
+
+
+/*
+#Layout DIV
+{
+ border: 1px solid #FF0000;
+}
+
+#Layout P:hover
+{
+ outline: 1px solid #FF0000;
+}
+*/
+
+#LeftFrame
+{
+ background: #FFFFFF;
+ float: left;
+ width: 265px;
+ padding: 0px;
+/* border: 1px solid #888888;*/
+}
+
+#Content
+{
+ background: #FFFFFF;
+ margin: 0 265px 0 265px; /* Отступ справа и слева */
+ padding: 0px;
+/* border: 1px solid #888888;*/
+ min-width: 300px;
+}
+
+#ContentWideLeft
+{
+ background: #FFFFFF;
+ margin: 0 265px 0 0; /* Отступ справа и слева */
+ padding: 0px;
+/* border: 1px solid #888888;*/
+ min-width: 300px;
+}
+
+#ContentWideRight
+{
+ background: #FFFFFF;
+ margin: 0 0 0 265px; /* Отступ справа и слева */
+ padding: 0px;
+/* border: 1px solid #888888;*/
+ min-width: 300px;
+}
+
+#ContentFull
+{
+ background: #FFFFFF;
+ margin: 0 0 0 0; /* Отступ справа и слева */
+ padding: 0px;
+/* border: 1px solid #888888;*/
+ min-width: 500px;
+}
+
+/*
+#Content:hover
+{
+ background: #E0D2C7;
+}
+*/
+
+#RightFrame
+{
+ background: #FFFFFF;
+ width: 265px;
+ float: right;
+ padding: 0px;
+/* border: 1px solid #888888;*/
+}
+
+
+
+
+/* Основной контент-бокс */
+
+.ContentBox
+{
+ position: relative;
+ background: url(../images/block.png) no-repeat;
+ /*padding: 0px;*/
+ margin: 10px 10px 30px 10px;
+/* border: 1px solid #888888;*/
+}
+
+.CBLine
+{
+ position: absolute;
+ background: url(../images/block3.png) repeat-y;
+/* padding-bottom: 50px;*/
+ left: 0px;
+ top: 50px;
+ bottom: 40px;
+/* border: 1px solid #888888;*/
+ width: 20px;
+ z-index:10;
+}
+
+.CBTitle
+{
+/* padding: 1px;*/
+ margin-left:  50px;
+ margin-right: 5px;
+/* margin-top: 30px;*/
+ font-size:    18px;
+ color: #38536E;
+}
+
+.CBContent
+{
+/* position: relative;*/
+ padding: 20px 5px 0px 30px;
+/* margin-left:  30px;
+ margin-top:   20px;
+ margin-right: 5px;*/
+ font-size:    16px;
+ color:        #000000;
+/* border: 1px solid #888888;*/
+/* padding: 0;*/
+}
+
+.ContentBox P, TABLE
+{
+ margin-top: 0;
+ margin-bottom: 10px;
+}
+
+.CBContent A
+{
+ color: #38536E;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.CBContent A:hover
+{
+ text-decoration: underline;
+ color: #BD2026;
+}
+
+.CBSmall
+{
+ font-size:    14px;
+}
+
+.CBSuperSmall
+{
+ font-size:    12px;
+}
+
+
+.ImgFrame
+{
+ background: #FFFFFF;
+ padding: 2px;
+ margin: 0; /*10px 10px 0;*/
+ border: 1px solid #888888;
+
+ -moz-box-shadow:    2px 2px 3px rgba(0,0,0,0.7); /* Для Firefox */
+ -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.7); /* Для Safari и Chrome */
+ box-shadow:         2px 2px 3px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+
+
+/* Стили новостей */
+
+.NLItem
+{
+ position: relative;
+ padding: 0px;
+ margin: 0px 10px 20px 10px;
+/* border: 1px solid #888888;*/
+}
+
+.NLItemImage
+{
+/* padding: 1px;*/
+ margin-left:  0px;
+ margin-top:   3px;
+ width: 60px;
+/* margin-top: 30px;*/
+ float: left;
+}
+
+.NLItemTitle
+{
+/* padding: 1px;*/
+ margin-left:  120px;
+ margin-right: 5px;
+/* margin-top: 30px;*/
+ font-size:    16px;
+ color: #38536E;
+ float: none;
+}
+
+.NLItemInfo
+{
+ margin-left:  120px;
+ margin-right: 5px;
+ margin-top:   10px;
+/* margin-top: 30px;*/
+ font-size:    14px;
+ color: #000000;
+/* float: none;*/
+}
+
+.NLItemText
+{
+ margin-left:  120px;
+ margin-right: 5px;
+ margin-top:   10px;
+/* margin-top: 30px;*/
+ font-size:    14px;
+ color: #000000;
+/* float: none;*/
+
+}
+
+.NLItemTextWide
+{
+ margin-left:  0px;
+ margin-right: 5px;
+ margin-top:   10px;
+/* margin-top: 30px;*/
+ font-size:    14px;
+ color: #000000;
+/* float: none;*/
+
+}
+
+.NLItemInfoCap
+{
+ margin-left:  0px;
+ margin-bottom:  3px;
+ width: 80px;
+ float: left;
+ font-weight: bold;
+}
+
+.NLItemInfoText
+{
+ margin-left:  90px;
+ margin-bottom:  5px;
+ margin-right: 5px;
+ float: none;
+}
+
+
+
+
+
+
+
+/* Контент-аблица */
+
+.ContentTable TABLE
+{
+border-collapse: collapse; /* Убираем двойные линии между ячейками */
+width: 100%; /* Ширина таблицы */
+border: 1px solid black; /* Параметры рамки */
+}
+
+.ContentTable TH
+{ 
+background: #CCCCCC; /* Цвет фона ячейки */
+text-align: center; /* Выравнивание по левому краю */
+font-size:14px;
+color:#000000;
+border: 1px solid black; /* Параметры рамки */
+padding: 0px; /* Поля вокруг текста */
+}
+
+/*
+.ContentTable TD
+{
+background: #fff;
+text-align: center;
+}
+*/
+
+.ContentTable TD
+{
+border: 1px solid black; /* Параметры рамки */
+padding: 4px; /* Поля вокруг текста */
+}
+
+.CTRow:hover
+{
+background-color:#A7B9D1;
+cursor:pointer;
+}
+
+
+.CTHeadLink
+{
+font-size:14px;
+font-weight:bold;
+color:#000000 !important;
+cursor:pointer;
+width: 100%;
+height: 100%;
+text-align: center;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.CTHeadLink:hover 
+{
+color: #000000 !important;
+text-decoration: none  !important;
+background-color:#A7B9D1;
+}
+

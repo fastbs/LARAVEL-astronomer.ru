@@ -1,0 +1,104 @@
+/* Стили дерева */
+
+.TreeBox
+{
+font-size:14px;
+border:#7F9DB9 1px solid;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+
+.TreeContainer
+{
+padding: 0;
+margin: 0;
+}
+
+.TreeContainer li
+{
+list-style-type: none;
+}
+
+
+.TreeNode
+{
+background-image : url(../images/i.gif);
+background-position : top left;
+background-repeat : repeat-y;
+margin-left: 18px;
+zoom: 1;
+}
+
+.IsRoot
+{
+margin-left: 0;
+}
+
+
+.IsLast
+{
+background-image: url(../images/i_half.gif);
+background-repeat : no-repeat;
+}
+
+.ExpandOpen .Expand
+{
+background-image: url(../images/expand_minus.gif);
+}
+
+.ExpandClosed .Expand
+{
+background-image: url(../images/expand_plus.gif);
+}
+
+.ExpandLeaf .Expand
+{
+background-image: url(../images/expand_leaf.gif);
+}
+
+.TreeContent
+{
+min-height: 18px;
+margin-left:18px;
+cursor: pointer;
+}
+
+* html .TreeContent
+{
+height: 18px;
+}
+
+.Expand
+{
+width: 18px;
+height: 18px;
+float: left;
+}
+
+
+.ExpandOpen .TreeContainer
+{
+display: block;
+}
+
+.ExpandClosed .TreeContainer
+{
+display: none;
+}
+
+.ExpandOpen .Expand, .ExpandClosed .Expand
+{
+cursor: pointer;
+}
+.ExpandLeaf .Expand
+{
+cursor: auto;
+}
+
+.SelectedNode
+{
+background-color: #316AC5;
+color: white;
+}
+

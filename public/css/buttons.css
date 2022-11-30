@@ -1,0 +1,178 @@
+/* Кнопки */
+
+.CLink
+{
+text-decoration: none !important;
+}
+
+.CLink:hover
+{
+text-decoration: none !important;
+}
+
+.BigButton 
+{
+font-size:16px;
+font-weight:bold;
+color:#000000;
+background: #E3E3E3 url(../images/admin/approve_f2.gif) no-repeat;
+border:#38536E 1px solid;
+cursor:pointer;
+padding: 10px 20px 10px 40px;
+margin-bottom:  15px;
+width: 190px;
+-moz-box-shadow:    2px 2px 3px rgba(0,0,0,0.7); /* Для Firefox */
+-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.7); /* Для Safari и Chrome */
+box-shadow:         2px 2px 3px rgba(0,0,0,0.7); /* Параметры тени */
+background-position: 10px center;
+}
+
+.BigButton:hover 
+{
+background-color:#A7B9D1;
+box-shadow:         2px 2px 1px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+
+
+.SmallButton
+{
+font-size:12px;
+font-weight:bold;
+color:#000000;
+background: #E3E3E3;
+padding: 3px 5px 3px 5px;
+border:#38536E 1px solid;
+cursor:pointer;
+/*width: 190px;*/
+-moz-box-shadow:    1px 1px 2px rgba(0,0,0,0.7); /* Для Firefox */
+-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Для Safari и Chrome */
+box-shadow:         1px 1px 2px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+.SmallButton:hover 
+{
+background-color:#A7B9D1;
+box-shadow:         1px 1px 1px rgba(0,0,0,0.7); /* Параметры тени */
+text-decoration: none;
+}
+
+.SmallButtonLeft
+{
+font-size:12px;
+font-weight:bold;
+color:#000000;
+background: #E3E3E3 no-repeat;
+background-position: left center;
+padding: 3px 10px 3px 25px;
+border:#38536E 1px solid;
+cursor:pointer;
+/*width: 190px;*/
+-moz-box-shadow:    1px 1px 2px rgba(0,0,0,0.7); /* Для Firefox */
+-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Для Safari и Chrome */
+box-shadow:         1px 1px 2px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+.SmallButtonRight
+{
+font-size:12px;
+font-weight:bold;
+color:#000000;
+background: #E3E3E3 no-repeat;
+background-position: right center;
+padding: 3px 25px 3px 10px;
+border:#38536E 1px solid;
+cursor:pointer;
+/*width: 190px;*/
+-moz-box-shadow:    1px 1px 2px rgba(0,0,0,0.7); /* Для Firefox */
+-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Для Safari и Chrome */
+box-shadow:         1px 1px 2px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+.SmallButtonLeft:hover 
+{
+background-color:#A7B9D1;
+box-shadow:         1px 1px 1px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+.SmallButtonLeft A:hover 
+{
+text-decoration: none;
+}
+
+.SmallButtonRight:hover 
+{
+background-color:#A7B9D1;
+box-shadow:         1px 1px 1px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+.Passive
+{
+font-weight:normal;
+
+}
+
+.Passive:hover 
+{
+background-color:#E3E3E3;
+box-shadow:         1px 1px 2px rgba(0,0,0,0.7); /* Параметры тени */
+cursor:auto;
+}
+
+
+.PageIcons
+{
+margin-top:  20px;
+margin-left: 20px;
+}
+
+.PageIcons A:hover
+{
+text-decoration: none;
+}
+
+.PageIcons:after
+{
+content: ".";
+display: block; 
+clear: both; 
+visibility: hidden; 
+line-height: 0; 
+height: 0; 
+}
+
+.PageIcon
+{
+float: left;
+
+font-size:16px;
+font-weight:bold;
+color:#000000 !important;
+background: #E3E3E3 url(../images/admin/approve_f2.gif) no-repeat;
+border:#38536E 1px solid;
+cursor:pointer;
+padding: 20px 20px 20px 50px;
+margin-bottom:  15px;
+margin-right:   20px;
+width: 200px;
+-moz-box-shadow:    2px 2px 3px rgba(0,0,0,0.7); /* Для Firefox */
+-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.7); /* Для Safari и Chrome */
+box-shadow:         2px 2px 3px rgba(0,0,0,0.7); /* Параметры тени */
+background-position: 10px center;
+text-align: center;
+}
+
+A .PageIcon 
+{
+background-color:#A7B9D1;
+color: #000000 !important;
+box-shadow:         2px 2px 1px rgba(0,0,0,0.7); /* Параметры тени */
+text-decoration: none;
+}
+
+.PageIcon:hover 
+{
+background-color:#A7B9D1;
+box-shadow:         2px 2px 1px rgba(0,0,0,0.7); /* Параметры тени */
+}
+

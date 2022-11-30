@@ -1,0 +1,243 @@
+/* Общие стили */
+body
+{
+background:#FFFFFF;
+font-size: 16px;
+color:Black;
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+margin: 0;
+}
+
+
+h1 {
+ font-size: 36px; /* Размер шрифта */
+ margin: 0; /* Убираем отступы */
+ color: #fc6; /* Цвет текста */
+}
+
+h2 {
+ margin-top: 0; /* Убираем отступ сверху */
+}
+
+#TopLogo { /* Верхний блок */
+ height: 145px; /* Высота блока */
+ padding: 0px; /* Поля вокруг текста */
+ border-top: 1px solid #FFFFFF;
+ border-bottom: 1px solid #FFFFFF;
+ background: #000000 url(http://127.0.0.1/astronomer/images/top3.jpg) no-repeat;
+}
+
+#Layout
+{
+ position: relative;
+ min-width: 900px;
+}
+
+   .layout { overflow: hidden; }
+   .col1 { background: #C7E3E4; float: left; width: 200px; }
+   .col2 { background: #E0D2C7; 
+    margin: 0 100px 0 200px; /* Отступ справа и слева */}
+
+#Layout DIV
+{
+ position: absolute;
+}
+
+#Layout DIV:hover
+{
+ outline: 1px solid #FF0000;
+}
+
+#LeftFrame
+{
+ background: #FFFFFF;
+ left: 0px;
+ top: 10px;
+ width: 265px;
+ padding: 0px;
+/* border: 1px solid #888888;*/
+}
+
+#Content
+{
+ background: #FFFFFF;
+ left: 266px;
+ top: 10px;
+ right: 266px;
+ padding: 0px;
+/* border: 1px solid #888888;*/
+ min-width: 300px;
+}
+/*
+#Content:hover
+{
+ background: #E0D2C7;
+}
+*/
+#RightFrame
+{
+ background: #FFFFFF;
+ top: 10px;
+ width: 265px;
+ right: 0px;
+ padding: 0px;
+/* border: 1px solid #888888;*/
+}
+
+#LeftFrame DIV
+{
+ position: relative;
+}
+
+#RightFrame DIV
+{
+ position: relative;
+}
+
+#Content DIV
+{
+ position: relative;
+}
+
+
+#Footer { /* Нижний блок */
+ clear:both;
+ height: 145px; /* Высота блока */
+ padding: 0px; /* Поля вокруг текста */
+ border-top: 1px solid #FF0000;
+ border-bottom: 1px solid #FFFFFF;
+ background: #000000 url(../images/block2.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+.ContentBox
+{
+ background: url(../images/block.png) no-repeat;
+ padding: 0px;
+ margin: 10px 10px 20px 10px;
+/* border: 1px solid #888888;*/
+}
+
+.ContentBox .CBTitle
+{
+ margin-left:  50px;
+ margin-top:   2px;
+ margin-right: 5px;
+ font-size:    18px;
+ color: #38536E;
+}
+
+.ContentBox .CBContent
+{
+ margin-left:  30px;
+ margin-top:   20px;
+ margin-right: 5px;
+ font-size:    16px;
+ color:        #000000;
+/* border: 1px solid #888888;*/
+ line-height: 20px;
+ overflow: auto;
+}
+
+.ContentBox P
+{
+ margin: 0 0 10 px 0;
+}
+
+.ImgFrame
+{
+ float: left;
+ background: #FFFFFF;
+ padding: 2px;
+ margin: 0 10px 10px 0;
+ border: 1px solid #888888;
+
+ -moz-box-shadow:    2px 2px 3px rgba(0,0,0,0.7); /* Для Firefox */
+ -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.7); /* Для Safari и Chrome */
+ box-shadow:         2px 2px 3px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+
+
+
+/* Стили меню */
+
+.mrow
+{
+background-color:#E3E3E3;
+padding: 0px 0px 0px 0px;
+border-spacing: 0px 0px;
+border-bottom: 1px solid #888888;
+width: 100%;
+display:inline-block;
+}
+
+
+.menuline
+{
+font-size:18px;
+background-color:#E3E3E3;
+padding: 0px 10px 0px 10px;
+height: 25px;
+float: left;
+}
+
+
+.menuline:hover
+{
+font-size:18px;
+color:#000000;
+text-decoration:none;
+background-color:#A7B9D1;
+}
+
+.menuline  a
+{
+text-decoration:none;
+color:#000000;
+}
+
+.submenu
+{
+font-size:16px;
+background-color:#E3E3E3;
+padding: 0px 0px 0px 0px;
+border-spacing: 0px 0px;
+outline: 1px solid #888888;
+clear: both;
+z-index: 100;
+}
+
+.subline
+{
+font-size:16px;
+color:#000000;
+background-color:#E3E3E3;
+padding: 2px 15px 2px 10px;
+width: inherit;
+height: 20px;
+clear: both;
+}
+
+/*.subline:hover
+{
+font-size:16px;
+color:#000000;
+text-decoration:none;
+background-color:#aCc0dF;
+} */
+
+.subline a
+{
+text-decoration:none;
+color:#000000;
+display: block;
+}
+
+
